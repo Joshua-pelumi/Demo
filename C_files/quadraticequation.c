@@ -24,7 +24,7 @@ int main(void)
 
     printf("With this programme, you can solve quadratic equtions as well as check for pythagorean triple\n");
 
-    printf("Enter a= ");././
+    printf("Enter a= "); 
     scanf("%d", &a);
     printf("%i\n", a);
 
@@ -46,6 +46,6 @@ int main(void)
     root1 = (f1/(2*a));
     root2 = (f2/(2*a));
 
-    printf("The roots are x1 = %i and x2 = %i ", root1, root2);
+    printf("The roots are x1 = %i and x2 = %i\n ", root1, root2);
     return 0;
 }
